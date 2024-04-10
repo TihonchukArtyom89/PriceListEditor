@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceListEditor.WebApplication", "PriceListEditor.WebApplication\PriceListEditor.WebApplication.csproj", "{AC04F584-E99F-43F5-A01C-5073060DAEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceListEditor.Tests", "PriceListEditor.Tests\PriceListEditor.Tests.csproj", "{62AA9F4C-6FB1-4FD5-A84D-13E49A5B2958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC04F584-E99F-43F5-A01C-5073060DAEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC04F584-E99F-43F5-A01C-5073060DAEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC04F584-E99F-43F5-A01C-5073060DAEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC04F584-E99F-43F5-A01C-5073060DAEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62AA9F4C-6FB1-4FD5-A84D-13E49A5B2958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62AA9F4C-6FB1-4FD5-A84D-13E49A5B2958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62AA9F4C-6FB1-4FD5-A84D-13E49A5B2958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62AA9F4C-6FB1-4FD5-A84D-13E49A5B2958}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
