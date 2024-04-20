@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace PriceList.WebApplication.Models;
+namespace PriceListEditor.WebApplication.Models;
 //класс для формирования справочной таблицы для необязательных параметров (ид,тип, название)
 public class OptionalParameter
 {

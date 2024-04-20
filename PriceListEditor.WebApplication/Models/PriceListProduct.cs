@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.InteropServices;
 
-namespace PriceList.WebApplication.Models;
+namespace PriceListEditor.WebApplication.Models;
 //класс для формирования таблицы с обязательными значениями для прайс листов (ид позиции прайс листа, ид прайс листа, ид товара) 
 public class PriceListProduct
 {

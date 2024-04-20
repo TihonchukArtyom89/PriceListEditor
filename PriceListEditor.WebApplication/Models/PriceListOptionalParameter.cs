@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace PriceList.WebApplication.Models;
+namespace PriceListEditor.WebApplication.Models;
 //класс для формирования таблицы в бд посвящённой необязательным параметрам прайс-листа товаров(EAV модель данных)
 public class PriceListOptionalParameter
 {
