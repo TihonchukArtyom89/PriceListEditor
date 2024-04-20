@@ -1,12 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PriceListEditor.WebApplication.Models;
 
-namespace PriceListEditor.WebApplication.Controllers
+namespace PriceListEditor.WebApplication.Controllers;
+
+public class ProductController : Controller
 {
-    public class Product : Controller
+    private IProductRepository productRepository;
+    public ProductController(IProductRepository _productRepository)
     {
-        public IActionResult ProductList()
-        {
-            return View();
-        }
+        productRepository = _productRepository;
+    }
+    public IActionResult ProductList()
+    {
+        return View(productRepository.Products);
     }
 }
