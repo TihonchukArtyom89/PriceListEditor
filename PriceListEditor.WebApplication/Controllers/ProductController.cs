@@ -10,7 +10,7 @@ public class ProductController : Controller
     {
         productRepository = _productRepository;
     }
-    public IActionResult ProductList()
+    public ViewResult ProductList()
     {
         return View(productRepository.Products);
     }
