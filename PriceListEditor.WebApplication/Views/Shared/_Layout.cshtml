@@ -28,8 +28,10 @@
 <body>
     <div class="bg-dark text-white p-2 text-white">
         <div style="display:inline-block" class="mx-3"><span class="navbar-brand ml-2">РЕДАКТОР ПРАЙС - ЛИСТОВ ПРЕДПРИЯТИЯ</span></div>
-        <div style="display:inline-block" class="mx-2"><a class="btn btn-secondary" asp-controller="Home" asp-action="Index">Главная</a></div>
-        <div style="display:inline-block" class="mx-2"><a class="btn btn-secondary" asp-controller="Product" asp-action="ProductList">Товары</a></div>
+        @* <div style="display:inline-block" class="mx-2"><a class="btn btn-secondary" asp-action="Index" asp-controller="Home">Главная</a></div> *@
+        <a href="@Url.Action("Index","Home")" class="btn btn-secondary">Главная</a>
+        @* <div style="display:inline-block" class="mx-2"><a class="btn btn-secondary" asp-action="ProductList" asp-controller="Product">Товары</a></div> *@
+        <a href="@Url.Action("ProductList","Product")" class="btn btn-secondary">Товары</a>
     </div>
     @RenderBody()
 @*     <div class="row m-1 p-1">

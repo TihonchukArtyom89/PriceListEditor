@@ -6,7 +6,7 @@ namespace PriceListEditor.WebApplication.Controllers
     {
         public ViewResult Index()
         {
-            return View();
+            return View("Index");
         }
     }
 }
